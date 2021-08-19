@@ -5,14 +5,13 @@ type ObjectType = {
   age: number;
 }
 
-
 interface ObjectInterface {
   name: string;
   age: number;
 }
 
 
-let object: ObjectType = {
+let object: ObjectInterface = {
   name: 'kdm',
   age: 32
 }
